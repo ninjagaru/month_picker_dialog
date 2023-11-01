@@ -30,7 +30,7 @@ class PickerPager extends StatelessWidget {
               Duration(milliseconds: controller.animationMilliseconds),
           transitionBuilder: (Widget child, Animation<double> animation) =>
               ScaleTransition(scale: animation, child: child),
-          child: Text('gggg'),
+          child: selector,
         ),
       ),
     );
