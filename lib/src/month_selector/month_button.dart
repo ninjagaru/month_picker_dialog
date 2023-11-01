@@ -94,8 +94,7 @@ class MonthButton extends StatelessWidget {
             ? toBeginningOfSentenceCase(
                 DateFormat.MMM(localeString).format(date))!
             : DateFormat.MMM(localeString).format(date).toLowerCase(),
-            style: TextStyle(fontSize: 14,color: Colors.black),
-        // style: monthStyle.textStyle?.resolve({}),
+        style: monthStyle.textStyle?.resolve({}),
       ),
     );
   }
